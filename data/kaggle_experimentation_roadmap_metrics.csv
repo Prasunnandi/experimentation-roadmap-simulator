@@ -1,0 +1,9 @@
+experiment_id,hypothesis_title,baseline_conversion_pct,mde_target_pct,statistical_power_pct,significance_level_alpha,required_sample_per_variant,estimated_duration_days,milestone_sprint,prerequisite_dependency,risk_level
+EXP-301,Single-Page Checkout with Apple Pay vs Traditional Multi-Step,3.2,5.0,80,0.05,124500,14,Sprint 24,Stripe SDK Integration,MEDIUM
+EXP-302,Gamified Onboarding Checklist vs Static Modal Wizard,14.5,10.0,80,0.05,38200,10,Sprint 24,None,LOW
+EXP-303,AI Semantic Search Autocomplete vs Standard Keyword Match,8.0,4.0,80,0.05,185000,21,Sprint 25,Vector DB Search Cluster,HIGH
+EXP-304,Annual Plan Default Toggle vs Monthly Billing on Pricing Table,6.5,8.0,85,0.05,52000,12,Sprint 25,None,LOW
+EXP-305,Social Proof Live Buyer Toast Notifications in Product Page,2.1,12.0,80,0.05,68000,9,Sprint 26,WebSocket Event Bus,LOW
+EXP-306,Dynamic Personalized Home Page Recommendations vs Editorial,4.8,6.0,80,0.05,94000,14,Sprint 26,Recommendation ML Pipeline,HIGH
+EXP-307,Post-Purchase One-Click Upsell Modal vs Order Confirmation,11.0,7.5,80,0.05,42000,8,Sprint 27,Single-Page Checkout Core,MEDIUM
+EXP-308,Frictionless Email-Only Magic Link Login vs Password Form,22.0,5.0,80,0.05,31000,7,Sprint 27,Auth0 SSO Gateway,LOW
